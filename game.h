@@ -92,7 +92,7 @@ int showMenu(){
         gotoxy(3,6);
         colorit(15);
         if(index==2){colorit(12);}
-        cout<<"MORE VIDEOS";
+        cout<<"MORE GAMES";
         gotoxy(3,7);
         colorit(15);
         if(index==3){colorit(12);}
@@ -102,7 +102,7 @@ int showMenu(){
         if(index==4){colorit(12);}
         cout<<"EXIT";
         gotoxy(20,12);
-        colorit(15);cout<<"By: Mubarak Hason";colorit(15);
+        colorit(15);cout<<"𝕎𝕙𝕒𝕥’𝕤 𝕓𝕖𝕙𝕚𝕟𝕕 𝕪𝕠𝕦 𝕕𝕠𝕖𝕤𝕟’𝕥 𝕞𝕒𝕥𝕥𝕖𝕣.";colorit(15);
         gotoxy(0,0);
         /////////////UP=224/72 Down=224/80 Enter=13
         key=getch();
@@ -115,13 +115,13 @@ int showMenu(){
                 startGame();
         }
         else if (index==2){
-            ShellExecute( NULL, TEXT( "open" ), TEXT( "https://www.youtube.com/channel/UCAWvEudCuekhTEeewjuaDng/" ), NULL, NULL, 0 );
+            ShellExecute( NULL, TEXT( "open" ), TEXT( "https://github.com/kalanakt" ), NULL, NULL, 0 );
             showMenu();
         }
         else if (index==3){
             system("cls");
             gotoxy(3,3);cout<<"Car Console Game";
-            gotoxy(3,4);cout<<"By: ";colorit(12);cout<<"Mubarak Hason";colorit(15);gotoxy(0,0);
+	    gotoxy(3,4);cout<<"Using C , C++";
             Sleep(5000);
             showMenu();
         }
